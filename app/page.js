@@ -1,6 +1,3 @@
-// import { personalData } from "@/utils/data/personal-data";
-// import Blog from "./components/homepage/blog";
-// import Experience from "./components/homepage/experience";
 import AboutSection from "./components/homepage/about";
 import ContactSection from "./components/homepage/contact";
 import Education from "./components/homepage/education";
@@ -31,8 +28,7 @@ export default async function Home() {
   return (
     <div suppressHydrationWarning >
       <HeroSection />
-      <AboutSection />
-      {/* <Experience /> */}
+      <AboutSection /> 
       <Skills />
       <Projects />
       <Education />
