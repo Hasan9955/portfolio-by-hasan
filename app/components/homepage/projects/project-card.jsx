@@ -9,7 +9,7 @@ const ProjectCard = ({ project }) => {
     <div className="w-full mx-auto from-[#0d1224] border-[#1b2c68a0] rounded-lg border bg-gradient-to-r to-[#0a0d37] overflow-hidden p-6 md:flex gap-6 text-white">
 
       <div className="w-full md:w-1/2 relative group overflow-hidden rounded-xl border border-gray-200 shadow-sm hover:border-hidden"> 
-        <div className="relative w-full h-full"> 
+        <div className="relative w-full h-56 md:h-full"> 
           <Image
             src={project.photo}
             alt="ProjectImg"

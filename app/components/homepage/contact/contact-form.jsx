@@ -39,6 +39,7 @@ function ContactForm() {
         `${process.env.NEXT_PUBLIC_APP_URL}/api/contact`,
         userInput
       );
+      console.log(res);
 
       toast.success("Message sent successfully!");
       setUserInput({
@@ -47,6 +48,7 @@ function ContactForm() {
         message: "",
       });
     } catch (error) {
+      console.log(error);
       toast.error(error?.response?.data?.message);
     } finally {
       setIsLoading(false);

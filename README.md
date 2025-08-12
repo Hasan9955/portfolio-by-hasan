@@ -1,10 +1,10 @@
 <p align="center" width="100%">
-    <img height="100" src="https://github.com/said7388/developer-portfolio/assets/77630868/c0064908-cd5f-4751-a77c-eba90a62b55c">
+    <img height="100" src="./public/image/palestine.jpg">
 </p>
 
 ---
 
-# [Built Portfolio With GitHub ](https://github.com/said7388/github-portfolio)
+# [Built Portfolio With GitHub ](https://github.com/Hasan9955/portfolio-by-hasan/)
 
 ---
 
@@ -16,9 +16,9 @@
 
 # Demo :movie_camera:
 
-![](./public/image/screen.png)
+![](./public/image/demo.png)
 
-## View live preview [here](https://abusaid.netlify.app/).
+## View live preview [here](https://portfolio-by-hasan.vercel.app/).
 
 ---
 
@@ -145,26 +145,24 @@ GMAIL_PASSKEY =
 EMAIL_ADDRESS =
 ```
 
-### Then, Customize data in the `utils/data` [folder](https://github.com/said7388/developer-portfolio/tree/main/utils/data).
+### Then, Customize data in the `utils/data` [folder](https://github.com/Hasan9955/portfolio-by-hasan/tree/main/utils/data).
 
 Eg:
 
 ```javascript
 export const personalData = {
-  name: "ABU SAID",
+  name: "Hasan Bin Ali",
   profile: "/profile.png",
-  designation: "Full-Stack Software Developer",
-  description: "My name is ABU SAID....",
-  email: "abusaid7388@gmail.com",
-  phone: "+8801608797655",
+  designation: "Full-Stack Developer",
+  description: "My name is Hasan....",
+  email: "hasanbinali75556@gmail.com",
+  phone: "+8801880527736",
   address: "Dhaka, Bangladesh",
-  github: "https://github.com/said7388",
-  facebook: "https://www.facebook.com/abusaid.riyaz/",
-  linkedIn: "https://www.linkedin.com/in/abu-said-bd/",
-  twitter: "https://twitter.com/said7388",
-  stackOverflow: "https://stackoverflow.com/users/16840768/abu-said",
-  leetcode: "https://leetcode.com/said3812/",
-  devUsername: "said7388",
+  github: 'https://github.com/Hasan9955',
+  facebook: 'https://www.facebook.com/hasan.binali.311/',
+  linkedIn: 'https://www.linkedin.com/in/hasan-bin-ali-303b82299/',
+  twitter: 'https://x.com/HBAbd44', 
+  devUsername: "hasan9955",
   resume: "...",
 };
 ```
